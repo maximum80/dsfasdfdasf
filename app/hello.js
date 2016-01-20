@@ -4,7 +4,7 @@ function hello(name) {
 * nameが"codecheck"の場合には、"Hello codecheck!"が返されます。
 */
 
-  //return "Hello World!";
+ return "Hello "+name+"!"; //return "Hello World!";
 }
 
 module.exports = hello;
